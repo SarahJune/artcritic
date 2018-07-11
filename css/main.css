@@ -51,7 +51,7 @@ p {
   margin: 8px 20px;
 } */
 .work, .writing, .about {
-  height: 100vh;
+  min-height: 100vh;
 }
 /* .work h2, .writing h2, .about h2 {
   text-align: center;
