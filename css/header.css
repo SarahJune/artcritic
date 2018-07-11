@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  color: #182024;
+}
+nav a {
+  text-decoration: none;
+  color: #182024;
+  padding-top: 8px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.underline {
+  width: 205px;
+  height: 5px;
+  background: #dbbaaf;
+  margin-top: -10px;
+  z-index: 50;
+}

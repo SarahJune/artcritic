@@ -1,17 +1,48 @@
-<DOCTYPE html>
+<!DOCTYPE html>
+<html>
   <head>
     <title>Lindy Levinson</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      $(function(){
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
-      });
-    </script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,400,400i,700,700i|Playfair+Display:400,400i,900,900i" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <div id="header"></div>
-    <!--Remaining section-->
-    <div id="footer"></div>
+    <header>
+      <div class="title">
+        <h1>Lindy Levinson</h1>
+        <div class="underline"></div>
+      </div>
+      <nav>
+        <a href='/'>Home</a>
+        <a href='#work'>Work</a>
+        <a href='#writing'>Writing</a>
+        <a href='#about'>About</a>
+      </nav>
+    </header>
+    <section class="intro">
+      <h2>Oh<br> Hello</h2>
+      <div class="triangle"></div>
+    </section>
+    <section class="work">
+      <h2 id="work" class="section-head">Work</h2>
+    </section>
+    <section class="writing">
+      <h2 id="writing" class="section-head">Writing</h2>
+    </section>
+    <section class="about">
+      <h2 id="about" class="section-head">About</h2>
+      <figure>
+        <img src="img/lindy.jpg">
+      </figure>
+      <div class="about-inner">
+        <p>Hi, I’m Lindy Levinson (Merida in the recent past).</p>
+        <p>Currently helping to improve lives as head of Admissions at Code Fellows. Past work includes saving lives at Fred Hutch.</p>
+        <p>I equally enjoy Fast Company and Vogue, I believe nothing clears your head like a long run, I live my life according to my Google Calendar, and I think eating dessert is the secret to happiness.</p>
+        <p>And I can’t keep my iPhone in one piece (I’ve cracked four screens and counting).</p>
+        <p>If you have a penchant for any of the above (including cracked screens on Apple products) hit me up at @lindylevinson.</p>
+        <p>See some of my work (excluding broken electronics) here.</p>
+      </div>
+    </section>
+    <footer>
+    </footer>
   </body>
 </html>
