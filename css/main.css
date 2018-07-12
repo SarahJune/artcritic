@@ -9,12 +9,14 @@ h1 {
   margin: 0;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 24px;
 }
 .intro {
   background-image: url("../img/bg-lg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 100%;
   height: 100vh;
 }
@@ -50,8 +52,9 @@ p {
 .section-head:after {
   margin: 8px 20px;
 } */
-.work, .writing, .about {
+.work, .writing, .about, .contact {
   min-height: 100vh;
+  padding: 50px 20px;
 }
 /* .work h2, .writing h2, .about h2 {
   text-align: center;
@@ -60,23 +63,74 @@ p {
   font-weight: 100;
   padding: 100px 0 50px;
 } */
-.work h2, .writing h2, .about h2 {
+section h2 {
   font-size: 200px;
   color: #182024;;
   font-style: italic;
   text-transform: uppercase;
   margin: 0;
 }
-.section-head:before {
+/* .section-head:before {
   content: "//";
   color: rgba(219,186,175,.9);
   margin-right: -250px;
   margin-top: 50px;
   font-size: 300px;
+} */
+.cf {
+  display: flex;
+  flex-direction: row;
+}
+.role {
+  width: 30%;
+  border-right: 10px solid #182024;
+  text-align: right;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+/* .bold {
+  font-size: 150px;
+  font-weight: 700;
+} */
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 30%;
+  margin: 0 10%;
+}
+.grid div {
+}
+.pink {
+  background-color: #dbbaaf;
+}
+.rose {
+  background-color: #cd7d67;
+}
+.blush {
+  background-color: #a5796f;
+}
+.gold {
+  background-color: #e8b37f;
+}
+.black {
+  background-color: #182024;
+}
+
+.writing p a {
+  font-size: 24px;
+  text-decoration: none;
+}
+.writing p a:hover {
+  font-weight: 700;
+}
+.about-inner {
+  display: flex;
+  vertical-align: middle;
 }
 .about figure {
   width: 50%;
-  margin: 0;
+  margin: 0 0 0 -20px;
   padding: 0;
   float: left;
   overflow: hidden;
@@ -88,9 +142,10 @@ p {
   width: 100%;
   display: block;
 }
-.about-inner {
-  padding: 20px;
+.about-text {
+  padding: 0px 100px;
   box-sizing: border-box;
   float: left;
   width: 50%;
+  margin: auto;
 }

@@ -14,11 +14,13 @@ nav {
   justify-content: space-around;
   font-size: 12px;
   color: #182024;
+  z-index: 99;
 }
 nav a {
   text-decoration: none;
   color: #182024;
   padding-top: 8px;
+  z-index: 99;
 }
 nav a:hover {
   text-decoration: underline;
