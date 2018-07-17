@@ -9,8 +9,8 @@ h1 {
   margin: 0;
 }
 p {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 34px;
 }
 .intro {
   background-image: url("../img/bg-lg.jpg");
@@ -39,67 +39,17 @@ p {
   margin-top: -425px;
   margin-left: 20px;
  }
-/* .section-head:before, .section-head:after {
-  width: 200px;
-  height: 1px;
-  background-color: #182024;
-  content: "";
-  position: absolute;
-}
-.section-head:before {
-  margin: 8px -225px;
-}
-.section-head:after {
-  margin: 8px 20px;
-} */
 .work, .writing, .about, .contact {
   min-height: 100vh;
   padding: 50px 20px;
+  margin-bottom: 100px;
 }
-/* .work h2, .writing h2, .about h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 21px;
-  font-weight: 100;
-  padding: 100px 0 50px;
-} */
 section h2 {
   font-size: 200px;
   color: #182024;;
   font-style: italic;
   text-transform: uppercase;
   margin: 0;
-}
-/* .section-head:before {
-  content: "//";
-  color: rgba(219,186,175,.9);
-  margin-right: -250px;
-  margin-top: 50px;
-  font-size: 300px;
-} */
-.cf {
-  display: flex;
-  flex-direction: row;
-}
-.role {
-  width: 30%;
-  border-right: 10px solid #182024;
-  text-align: right;
-  padding: 0 50px;
-  box-sizing: border-box;
-}
-/* .bold {
-  font-size: 150px;
-  font-weight: 700;
-} */
-.grid {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 30%;
-  margin: 0 10%;
-}
-.grid div {
 }
 .pink {
   background-color: #dbbaaf;
@@ -116,7 +66,6 @@ section h2 {
 .black {
   background-color: #182024;
 }
-
 .writing p a {
   font-size: 24px;
   text-decoration: none;
@@ -143,7 +92,7 @@ section h2 {
   display: block;
 }
 .about-text {
-  padding: 0px 100px;
+  padding: 0px 50px;
   box-sizing: border-box;
   float: left;
   width: 50%;

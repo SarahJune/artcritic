@@ -1,0 +1,61 @@
+.work figure {
+  margin: 0;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+}
+.two {
+  width: 50%;
+}
+.one {
+  width: 100%;
+}
+.work img {
+  border-style: none;
+  width: 100%;
+}
+.cf, .fh, .bb {
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.role, .duties {
+  width: 100%;
+  display: flex;
+  padding: 0 2%;
+  box-sizing: border-box;
+}
+.text, .pics {
+  width: 50%;
+  float: left;
+  display: block;
+  margin: auto;
+  box-sizing: border-box;
+}
+.text {
+  padding: 25px;
+}
+.work h3 {
+  font-size: 36px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+.work h4 {
+  color: #dbbaaf;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.work hr {
+  display: none;
+  /* border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff); */
+}
+.bold {
+  font-weight:
+}

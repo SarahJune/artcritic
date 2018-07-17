@@ -9,14 +9,14 @@ header {
   text-transform: uppercase;
 }
 nav {
-  width: 300px;
+  width: 350px;
   display: flex;
   justify-content: space-around;
-  font-size: 12px;
+  font-size: 14px;
   color: #182024;
   z-index: 99;
 }
-nav a {
+header a {
   text-decoration: none;
   color: #182024;
   padding-top: 8px;
