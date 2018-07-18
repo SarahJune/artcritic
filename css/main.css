@@ -39,13 +39,16 @@ p {
   margin-top: -425px;
   margin-left: 20px;
  }
-.work, .writing, .about, .contact {
+.work, .writing, .about {
   min-height: 100vh;
   padding: 50px 20px;
   margin-bottom: 100px;
 }
+.contact  {
+  padding: 50px 20px;
+}
 section h2 {
-  font-size: 200px;
+  font-size: 150px;
   color: #182024;;
   font-style: italic;
   text-transform: uppercase;
@@ -65,13 +68,6 @@ section h2 {
 }
 .black {
   background-color: #182024;
-}
-.writing p a {
-  font-size: 24px;
-  text-decoration: none;
-}
-.writing p a:hover {
-  font-weight: 700;
 }
 .about-inner {
   display: flex;

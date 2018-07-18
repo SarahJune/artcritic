@@ -1,0 +1,46 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  box-sizing: border-box;
+  align-items: bottom;
+}
+.contact figure {
+  display: flex;
+  width: 25%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.linkedin, .mail, .twitter {
+  align-self: flex-end;
+  content: "";
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  cursor: pointer;
+}
+.linkedin {
+  background-image: url("../img/linkedin.png");
+}
+.mail {
+  background-image: url("../img/mail.png");
+}
+.twitter {
+  background-image: url("../img/twitter.png");
+}
+.linkedin:hover {
+  background-image: url("../img/linkedin-pink.png");
+}
+.mail:hover {
+  background-image: url("../img/mail-pink.png");
+}
+.twitter:hover {
+  background-image: url("../img/twitter-pink.png");
+}
+.contact figure img {
+  width: 100%;
+  align-self: flex-end;
+}
