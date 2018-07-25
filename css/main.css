@@ -22,6 +22,10 @@ p {
   display: flex;
   align-items: flex-end;
 }
+.hello {
+  box-sizing: border-box;
+  padding: 1px;
+}
 .intro h2 {
   font-size: 200px;
   line-height: 200px;
@@ -40,9 +44,12 @@ p {
   margin-top: -425px;
   margin-left: 20px;
  }
-.work, .writing, .about {
+.work, .writing, .about, .contact {
   min-height: 100vh;
   padding: 50px 20px;
+  box-sizing: border-box;
+}
+.work, .writing, .about {
   margin-bottom: 100px;
 }
 .contact  {
