@@ -13,9 +13,9 @@ p {
   line-height: 34px;
 }
 li {
-    font-size: 18px;
-    line-height: 24px;
-    margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 6px;
 }
 .intro {
   background-image: url("../img/bg-lg.jpg");
@@ -52,21 +52,15 @@ li {
  }
 .work, .writing, .about, .contact {
   min-height: 100vh;
-  padding: 50px 20px;
   box-sizing: border-box;
-}
-.work, .writing, .about {
-  margin-bottom: 100px;
-}
-.contact  {
-  padding: 50px 20px;
+  padding: 50px 0 0 0;
 }
 section h2 {
   font-size: 150px;
   color: #182024;;
   font-style: italic;
   text-transform: uppercase;
-  margin: 0;
+  margin: 20px;
 }
 .pink {
   background-color: #dbbaaf;
