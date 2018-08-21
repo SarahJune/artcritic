@@ -1,3 +1,7 @@
+.contact {
+  background-color: #f7f7f7;
+  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 90%);
+}
 .icons {
   display: flex;
   flex-direction: row;

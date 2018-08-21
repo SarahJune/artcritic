@@ -31,9 +31,7 @@ $(document).scroll(function(){
             $('a[href="#'+id+'"]').removeClass('underline');
         }
     });
-
 });
-
 
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -41,4 +39,5 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top + 1
     }, 500);
+
 });
