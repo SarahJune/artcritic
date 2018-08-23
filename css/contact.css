@@ -8,7 +8,7 @@
   justify-content: space-around;
   margin: auto;
   box-sizing: border-box;
-  align-items: bottom;
+  align-items: baseline;
 }
 .contact figure {
   display: flex;

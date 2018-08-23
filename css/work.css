@@ -10,6 +10,9 @@
   display: flex;
   box-sizing: border-box;
 }
+.cf, .bb, .fh {
+  overflow: auto;
+}
 .text, .pics {
   float: left;
   display: block;
