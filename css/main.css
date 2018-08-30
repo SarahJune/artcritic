@@ -97,6 +97,55 @@ section h2 {
 .black {
   background-color: #182024;
 }
+
+.element-to-hide {
+    visibility: hidden;
+    -webkit-transition: visibility 1.5s; /* Safari */
+    transition: visibility 1.5s;
+}
+.fadeIn {
+    visibility: visible;
+    animation: fadeIn 1.5s ease-in-out 1;
+    -webkit-animation: fadeIn 1.5s ease-in-out 1;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadeOut {
+    animation: fadeOut 1.5s ease-in-out 1;
+    -webkit-animation: fadeOut 1.5s ease-in-out 1;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 .about-inner {
   display: flex;
   vertical-align: middle;
