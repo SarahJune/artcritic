@@ -20,12 +20,18 @@ p {
 li {
   font-size: 18px;
   line-height: 24px;
-  margin-bottom: 6px;
+  margin-bottom: 12px;
 }
 main {
   background-color: #ffffff;
   position: relative;
   z-index: 50;
+}
+.textRight {
+  text-align: right;
+}
+.textLeft {
+  text-align: left;
 }
 .intro {
   background-image: url("../img/bg-lg.jpg");
@@ -37,7 +43,7 @@ main {
   height: 101vh;
   display: flex;
   align-items: flex-end;
-  margin-bottom: 1px;
+  padding-bottom: 1px
 }
 .hello {
   box-sizing: border-box;
@@ -75,6 +81,9 @@ main {
   min-height: 101vh;
   padding-top: 25px;
 }
+section {
+  background-color: white;
+}
 section h2 {
   font-size: 150px;
   color: #182024;;
@@ -98,9 +107,9 @@ section h2 {
   background-color: #182024;
 }
 
-.element-to-hide {
+/* .element-to-hide {
     visibility: hidden;
-    -webkit-transition: visibility 1.5s; /* Safari */
+    -webkit-transition: visibility 1.5s;
     transition: visibility 1.5s;
 }
 .fadeIn {
@@ -145,6 +154,12 @@ section h2 {
     100% {
         opacity: 0;
     }
+} */
+.about {
+  /* position: -webkit-sticky;
+  position: sticky; */
+  top: 0px;
+  background-color: #ffffff;
 }
 .about-inner {
   display: flex;

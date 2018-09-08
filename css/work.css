@@ -1,3 +1,4 @@
+
 .work img {
   margin: 0;
   float: left;
@@ -9,6 +10,7 @@
   width: 100%;
   display: flex;
   box-sizing: border-box;
+  background: #F5F5F5;
 }
 .cf, .bb, .fh {
   overflow: auto;
@@ -17,18 +19,44 @@
   float: left;
   display: block;
 }
-.pics {
+.cf-side {
   width: 50%;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  background: repeating-linear-gradient(
+  55deg,
+  transparent,
+  transparent 15px,
+  #dbbaaf 15px,
+  #dbbaaf 30px
+);
+}
+
+.fh-side {
+  width: 50%;
+  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(219,186,175,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(219,186,175,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(219,186,175,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#dbbaaf',GradientType=1 ); /* IE6-9 */
+}
+.bb-side {
+  width: 50%;
+  background: transparent;
+  background:
+  linear-gradient(115deg, transparent 75%, #dbbaaf 75%) 0 0,
+  linear-gradient(245deg, transparent 75%, #dbbaaf 75%) 0 0,
+  linear-gradient(115deg, transparent 75%, #dbbaaf 75%) 14px -30px,
+  linear-gradient(245deg, transparent 75%, #dbbaaf 75%) 14px -30px,
+  transparent;
+  background-size: 30px 60px
 }
 .text {
   width: 50%;
-  padding: 0 50px;
+  padding: 75px 50px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  margin: auto 0;
+  background-color: #F5F5F5;
 }
 .text ul {
   margin: 0;
@@ -43,9 +71,6 @@
   margin-left: -20px;
   margin-right: 15px;
   color: #cd7d67;
-}
-.work h2 {
-  text-align: right;
 }
 .work h3 {
   font-size: 36px;
@@ -68,7 +93,4 @@
   background-image: -moz-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
   background-image: -ms-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
   background-image: -o-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff); */
-}
-.bold {
-  font-weight:
 }
