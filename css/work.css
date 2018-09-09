@@ -1,16 +1,15 @@
 
 .work img {
-  margin: 0;
+  margin: auto;
   float: left;
   box-sizing: border-box;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
 }
 .role, .duties {
   width: 100%;
   display: flex;
   box-sizing: border-box;
-  background: #F5F5F5;
 }
 .cf, .bb, .fh {
   overflow: auto;
@@ -21,14 +20,17 @@
 }
 .cf-side {
   width: 50%;
+  margin: auto;
+}
+.role {
   /* display: flex;
   justify-content: space-between; */
   background: repeating-linear-gradient(
   55deg,
-  transparent,
-  transparent 15px,
-  #dbbaaf 15px,
-  #dbbaaf 30px
+  #F5F5F5,
+  #F5F5F5 15px,
+  #EBEBEB 15px,
+  #EBEBEB 30px
 );
 }
 
@@ -57,6 +59,7 @@
   display: flex;
   flex-direction: column;
   background-color: #F5F5F5;
+  box-shadow: inset 0 0 10px #f1f1f1;
 }
 .text ul {
   margin: 0;
@@ -73,9 +76,12 @@
   color: #cd7d67;
 }
 .work h3 {
-  font-size: 36px;
-  line-height: 36px;
   margin: 0 0 10px 0;
+  font-size: 70px;
+  font-weight: 100;
+  color: #182024;
+  font-style: italic;
+  text-transform: uppercase;
 }
 .work h4 {
   color: #cd7d67;
@@ -83,7 +89,7 @@
   line-height: 21px;
   margin: 12px 0 6px 0;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 200;
 }
 .work hr {
   display: none;

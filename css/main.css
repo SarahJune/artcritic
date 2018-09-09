@@ -1,15 +1,15 @@
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color: #182024;
 }
 h1 {
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 0;
 }
 h2 {
-  font-weight: 100;
+  font-weight: 300;
   position: relative;
 }
 p {
@@ -27,11 +27,15 @@ main {
   position: relative;
   z-index: 50;
 }
-.textRight {
+.right {
   text-align: right;
+  padding-right: 25px;
+  box-sizing: border-box;
 }
-.textLeft {
+.left {
   text-align: left;
+  padding-left: 25px;
+  box-sizing: border-box;
 }
 .intro {
   background-image: url("../img/bg-lg.jpg");
