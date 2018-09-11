@@ -1,4 +1,6 @@
-
+.work, .community {
+  margin-top: 100px;
+}
 .work img {
   margin: auto;
   float: left;
@@ -22,43 +24,24 @@
   width: 50%;
   margin: auto;
 }
-.role {
+.linebg {
   /* display: flex;
   justify-content: space-between; */
   background: repeating-linear-gradient(
   55deg,
-  #F5F5F5,
+  #FAFAFA,
+  #FAFAFA 15px,
   #F5F5F5 15px,
-  #EBEBEB 15px,
-  #EBEBEB 30px
+  #F5F5F5 30px
 );
-}
-
-.fh-side {
-  width: 50%;
-  background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(219,186,175,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(219,186,175,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(219,186,175,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#dbbaaf',GradientType=1 ); /* IE6-9 */
-}
-.bb-side {
-  width: 50%;
-  background: transparent;
-  background:
-  linear-gradient(115deg, transparent 75%, #dbbaaf 75%) 0 0,
-  linear-gradient(245deg, transparent 75%, #dbbaaf 75%) 0 0,
-  linear-gradient(115deg, transparent 75%, #dbbaaf 75%) 14px -30px,
-  linear-gradient(245deg, transparent 75%, #dbbaaf 75%) 14px -30px,
-  transparent;
-  background-size: 30px 60px
 }
 .text {
   width: 50%;
-  padding: 75px 50px;
+  padding: 75px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  background-color: #F5F5F5;
+  background-color: #FAFAFA;
   box-shadow: inset 0 0 10px #f1f1f1;
 }
 .text ul {
@@ -67,17 +50,18 @@
   padding: 0;
 }
 .text li {
-  padding-left: 22px;
+  padding-left: 27px;
 }
 .text li::before {
-  content: "-";
-  margin-left: -20px;
+  content: "»";
+  margin-left: -26px;
   margin-right: 15px;
-  color: #cd7d67;
+  color: #D7D7D7;
+  font-weight: 400;
 }
 .work h3 {
   margin: 0 0 10px 0;
-  font-size: 70px;
+  font-size: 48px;
   font-weight: 100;
   color: #182024;
   font-style: italic;
@@ -88,8 +72,7 @@
   font-size: 16px;
   line-height: 21px;
   margin: 12px 0 6px 0;
-  text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 400;
 }
 .work hr {
   display: none;

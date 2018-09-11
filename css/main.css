@@ -2,6 +2,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 100;
   color: #182024;
+  background-color: #ffffff;
 }
 h1 {
   font-size: 24px;
@@ -11,6 +12,10 @@ h1 {
 h2 {
   font-weight: 300;
   position: relative;
+  font-size: 100px;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 20px 20px -45px;
 }
 p {
   font-size: 18px;
@@ -23,9 +28,9 @@ li {
   margin-bottom: 12px;
 }
 main {
-  background-color: #ffffff;
   position: relative;
   z-index: 50;
+  background-color: #ffffff;
 }
 .right {
   text-align: right;
@@ -82,18 +87,7 @@ main {
   position: relative;
 }
 .work, .about {
-  min-height: 101vh;
   padding-top: 25px;
-}
-section {
-  background-color: white;
-}
-section h2 {
-  font-size: 150px;
-  color: #182024;;
-  font-style: italic;
-  text-transform: uppercase;
-  margin: 20px 20px -75px;
 }
 .pink {
   background-color: #dbbaaf;
@@ -163,7 +157,6 @@ section h2 {
   /* position: -webkit-sticky;
   position: sticky; */
   top: 0px;
-  background-color: #ffffff;
 }
 .about-inner {
   display: flex;

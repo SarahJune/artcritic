@@ -6,6 +6,10 @@
 @import "contact.css";
 
 @media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 500px) {
   header {
     flex-direction: column;
   }
@@ -15,22 +19,34 @@
     max-width: 350px;
     margin: auto;
   }
+  nav {
+    padding: 10px;
+    box-sizing: border-box;
+  }
   .intro h2 {
     font-size: 75px;
     line-height: 75px;
   }
   .intro {
-    height: 60vh;
+    height: 50vh;
   }
   .triangle {
-    border-left: 150px solid rgba(219,186,175,.9);
-    border-top: 100px solid transparent;
-    border-right: 150px solid transparent;
-    border-bottom: 100px solid transparent;
-    margin-top: -210px;
+    border-left: 100px solid rgba(219,186,175,.9);
+    border-top: 75px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 75px solid transparent;
+    margin-top: -160px;
   }
-  section h2 {
+  h2 {
     font-size: 50px;
+    margin: 20px 20px -25px;
+  }
+  .work h3 {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .work h4 {
+    margin: 0px;
   }
   .about-inner {
     flex-direction: column;
@@ -42,10 +58,20 @@
   .about-text {
     width: 100%;
   }
-  .work, .writing, .about, .contact {
+  .work, .writing, .about, {
     min-height: 50vh;
     box-sizing: border-box;
-    padding: 50px 0 100px 0;
+    padding: 50px 0 0 0;
+  }
+  .work, .community {
+    margin-top: 50px;
+  }
+  .cf-side {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .right {
+    text-align: left;
   }
   .text, .pics {
     width: 100%;
@@ -59,10 +85,6 @@
   }
   .role {
     flex-direction: column;
-  }
-  .linkedin, .mail, .twitter {
-    width: 100px;
-    height: 100px;
   }
 }
 
