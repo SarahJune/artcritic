@@ -64,7 +64,7 @@
   font-size: 48px;
   font-weight: 100;
   color: #182024;
-  font-style: italic;
+  /* font-style: italic; */
   text-transform: uppercase;
 }
 .work h4 {
