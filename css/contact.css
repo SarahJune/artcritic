@@ -1,6 +1,17 @@
 .contact {
-  background-color: #f7f7f7;
-  clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 90%);
+  background-color: #ffffff;
+  align-items: center;
+  text-align: center;
+  color: #bababa;
+  padding: 50px;
+}
+.contact p, .contact a {
+  font-size: 12px;
+  line-height: 16px;
+  color: #bababa;
+}
+.contact h3 {
+  font-weight: 200;
 }
 .icons {
   display: flex;
@@ -8,23 +19,23 @@
   justify-content: space-around;
   margin: auto;
   box-sizing: border-box;
-  align-items: bottom;
+  /* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 90%); */
 }
-.contact figure {
+.icons-inner {
   display: flex;
-  width: 25%;
-  padding: 25px;
-  box-sizing: border-box;
+  width: 250px;
+  justify-content: space-between;
 }
 .linkedin, .mail, .twitter {
-  align-self: flex-end;
   content: "";
-  width: 250px;
-  height: 250px;
+  width: 35px;
+  height: 35px;
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 100%;
   cursor: pointer;
+  align-items: baseline;
+  margin-bottom: 15px;
 }
 .linkedin {
   background-image: url("../img/linkedin-gray.png");
@@ -35,7 +46,7 @@
 .twitter {
   background-image: url("../img/twitter-gray.png");
 }
-.linkedin:hover {
+/* .linkedin:hover {
   background-image: url("../img/linkedin-pink.png");
 }
 .mail:hover {
@@ -43,7 +54,7 @@
 }
 .twitter:hover {
   background-image: url("../img/twitter-pink.png");
-}
+} */
 .contact figure img {
   width: 100%;
   align-self: flex-end;

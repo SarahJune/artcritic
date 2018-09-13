@@ -6,36 +6,30 @@ header {
   position: fixed;
   width: 100%;
   box-sizing: border-box;
-  text-transform: uppercase;
   transition: 0.3s all;
-  z-index: 99;  
+  z-index: 99;
 }
 .changeColor {
   background-color: rgba(255,255,255,0.7);
 }
-.underline {
+.underline, header a:hover {
   transition: 0.5s all;
-  background: linear-gradient(to bottom, transparent, transparent 55%, #dbbaaf 55%, #dbbaaf 80%, transparent 80%, transparent 100%);
+  background: linear-gradient(to bottom, transparent, transparent 90%, #dbbaaf 90%, #dbbaaf 100%);
 }
 nav {
-  width: 350px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
   font-size: 14px;
   color: #182024;
   z-index: 99;
   transition: 0.5s all;
+  align-items: center;
 }
 header a {
   text-decoration: none;
   color: #182024;
-  padding-top: 8px;
   z-index: 99;
   line-height: 1;
-  transition: 0.5s all;
-}
-header a:hover {
-  background: linear-gradient(to bottom, transparent, transparent 55%, #dbbaaf 55%, #dbbaaf 80%, transparent 80%, transparent 100%);
-  z-index: 50;
   transition: 0.5s all;
 }

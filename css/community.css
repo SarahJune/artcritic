@@ -1,0 +1,13 @@
+.community {
+  background-color: #ffffff;
+}
+.tribg {
+  background: transparent;
+  background:
+  linear-gradient(115deg, transparent 75%, #EFEFEF 75%) 0 0,
+  linear-gradient(245deg, transparent 75%, #EFEFEF 75%) 0 0,
+  linear-gradient(115deg, transparent 75%, #EFEFEF 75%) 14px -30px,
+  linear-gradient(245deg, transparent 75%, #EFEFEF 75%) 14px -30px,
+  #F5F5F5;
+  background-size: 30px 60px
+}

@@ -2,13 +2,96 @@
 @import "main.css";
 @import "header.css";
 @import "work.css";
-@import "footer.css";
+@import "community.css";
 @import "contact.css";
 
+@media screen and (max-width: 800px) {
+
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    flex-direction: column;
+  }
+  .title, nav {
+    width: 100%;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+  }
+  nav {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .intro h2 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+  .intro {
+    height: 50vh;
+  }
+  .triangle {
+    border-left: 100px solid rgba(219,186,175,.9);
+    border-top: 75px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 75px solid transparent;
+    margin-top: -160px;
+  }
+  h2 {
+    font-size: 50px;
+    margin: 20px 20px -25px;
+  }
+  .work h3 {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .work h4 {
+    margin: 0px;
+  }
+  .about-inner {
+    flex-direction: column;
+  }
+  .about figure {
+    width: 100%;
+    margin: 0;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .work, .writing, .about, {
+    min-height: 50vh;
+    box-sizing: border-box;
+    padding: 50px 0 0 0;
+  }
+  .work, .community {
+    margin-top: 50px;
+  }
+  .cf-side {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .right {
+    text-align: left;
+  }
+  .text, .pics {
+    width: 100%;
+  }
+  .text {
+    order: 1;
+    padding: 20px;
+  }
+  .pics {
+    order: 2;
+  }
+  .role {
+    flex-direction: column;
+  }
+}
 
 /* Gray: #ded6d1
 Light pink: #dbbaaf
 Rich pink: #cd7d67
 Dark pink: #a5796f
+Gray: #7c7c7c
 Black: #182024
 Gold: #e8b37f */
