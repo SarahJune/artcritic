@@ -13,7 +13,7 @@
   header {
     flex-direction: column;
   }
-  .title, nav {
+  .lindy, nav {
     width: 100%;
     text-align: center;
     max-width: 350px;
@@ -75,13 +75,6 @@
   }
   .text, .pics {
     width: 100%;
-  }
-  .text {
-    order: 1;
-    padding: 20px;
-  }
-  .pics {
-    order: 2;
   }
   .role {
     flex-direction: column;
