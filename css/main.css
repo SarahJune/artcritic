@@ -104,6 +104,25 @@ main {
 .black {
   background-color: #182024;
 }
+.button {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  margin: 100px auto;
+}
+.button a {
+  padding: 0px;
+  margin: 25px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 100;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.button a:hover {
+  border-bottom: 2px solid #cd7d67;
+  margin-bottom: 23px;
+}
 
 /* .element-to-hide {
     visibility: hidden;
