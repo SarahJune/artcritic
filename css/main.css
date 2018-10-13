@@ -104,24 +104,50 @@ main {
 .black {
   background-color: #182024;
 }
-.button {
+.work-index {
+  display: flex;
+  padding: 100px;
+}
+.buttons {
   box-sizing: border-box;
-  display: block;
   text-align: center;
   margin: 100px auto;
+  padding; 25px;
 }
-.button a {
-  padding: 0px;
+.work-index div:hover {
+  transform: scale(1.1);
+}
+.dom, .opc, .pc {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 33%;
+  float: left;
+  transition: all .2s ease-in-out;
+}
+.dom {
+  background-image: url("../img/coders.jpg")
+}
+.opc {
+  background-image: url("../img/newspaper.jpg")
+}
+.pc {
+  background-image: url("../img/calendar.jpg")
+}
+.buttons a {
+  padding: 100px;
   margin: 25px;
+  box-sizing: border-box;
   display: inline-block;
   text-align: center;
   font-weight: 100;
   text-decoration: none;
   transition: all 100ms ease-in-out;
-}
-.button a:hover {
-  border-bottom: 2px solid #cd7d67;
-  margin-bottom: 23px;
+  color: #182024;
+  background: white;
+  opacity: .8;
+  display: inline-block;
+  font-weight: 700;
 }
 
 /* .element-to-hide {

@@ -42,11 +42,12 @@
   width: 100%;
   padding: 75px;
   box-sizing: border-box;
+}
+.gray-bg {
   background-color: #FAFAFA;
   box-shadow: inset 0 0 10px #f1f1f1;
 }
 .text div {
-  width: 50%;
   box-sizing: border-box;
   padding: 50px;
   margin: 100px auto;
