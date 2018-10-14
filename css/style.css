@@ -9,7 +9,7 @@
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
   header {
     flex-direction: column;
   }
@@ -48,8 +48,17 @@
   .work h4 {
     margin: 0px;
   }
+  .about {
+    box-sizing: border-box;
+    padding: 25px 0;
+  }
+  .about img {
+    padding-bottom: 25px;
+  }
   .about-inner {
     flex-direction: column;
+    box-sizing: border-box;
+    padding: 25px;
   }
   .about figure {
     width: 100%;
@@ -57,11 +66,23 @@
   }
   .about-text {
     width: 100%;
+    padding: 0;
+  }
+  .buttons {
+    padding: 25px;
+  }
+  .dom, .opc, .pc {
+    margin: 10px 0;
+  }
+  .dom-inner, .pc-inner, .opc-inner {
+    padding: 25px;
+  }
+  .work-index {
+    flex-direction: column;
   }
   .work, .writing, .about, {
     min-height: 50vh;
     box-sizing: border-box;
-    padding: 50px 0 0 0;
   }
   .work, .community {
     margin-top: 50px;
