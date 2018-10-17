@@ -60,7 +60,7 @@
   padding: 50px;
   margin: 100px auto;
   align-items: center;
-  max-width: 600px;
+  max-width: 800px;
 }
 .text ul {
   margin: 0;
@@ -90,11 +90,8 @@
   text-align: center;
 }
 .work hr {
-  display: none;
-  /* border: 0;
+  border: 0;
   height: 1px;
-  background-image: -webkit-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
-  background-image: -moz-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
-  background-image: -ms-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(left, #ffffff, #ffffff, #f0f0f0, #8c8b8b, #f0f0f0, #ffffff, #ffffff); */
+  background-color: #dbbaaf;
+  margin: 50px 0;
 }

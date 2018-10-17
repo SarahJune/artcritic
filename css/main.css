@@ -19,7 +19,7 @@ h2 {
   font-weight: bold;
 }
 h3 {
-  margin: 0 0 0 0;
+  margin: 0;
   font-size: 36px;
   font-weight: 100;
   color: #182024;
@@ -80,9 +80,8 @@ main {
 .hello {
   box-sizing: border-box;
   padding: 1px;
-  position: fixed;
   z-index: 1;
-  margin-top: 300px;
+  margin-top: 325px;
 }
 .triangle {
   width: 0;
@@ -272,4 +271,27 @@ main {
   float: left;
   width: 67%;
   margin: auto;
+  max-width: 800px;
+}
+
+/
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
 }

@@ -2,7 +2,7 @@
   background-color: #ffffff;
   text-align: center;
   color: #bababa;
-  padding: 50px 0 12px 0;
+  margin: 100px 0;
 }
 .contact p {
   color: #182024;
@@ -49,7 +49,7 @@
 .twitter {
   background-image: url("../img/twitter-gray.png");
 }
-/* .linkedin:hover {
+.linkedin:hover {
   background-image: url("../img/linkedin-pink.png");
 }
 .mail:hover {
@@ -57,4 +57,4 @@
 }
 .twitter:hover {
   background-image: url("../img/twitter-pink.png");
-} */
+}
