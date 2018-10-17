@@ -48,20 +48,3 @@ $(document).ready(function() {
     });
 
 });
-
-// fade in About Lindy section
-$(window).scroll(function () {
-    $('.element-to-hide').each(function () {
-        var imagePos = $(this).offset().top + 250;
-        var imageHeight = $(this).height();
-        var topOfWindow = $(window).scrollTop();
-
-        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-            $(this).addClass("fadeIn");
-            $(this).removeClass("fadeOut")
-        } else {
-            $(this).removeClass("fadeIn")
-            $(this).addClass("fadeOut");
-        }
-    });
-});

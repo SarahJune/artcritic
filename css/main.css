@@ -1,8 +1,11 @@
+html {
+  height: 100%
+}
 body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 100;
   color: #182024;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 h1 {
   font-size: 24px;
@@ -44,7 +47,7 @@ li {
 main {
   position: relative;
   z-index: 50;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -98,7 +101,7 @@ main {
   box-sizing: border-box;
   z-index: 50;
   position: relative;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .work, .about {
   padding: 100px 0 0 0;
@@ -124,7 +127,6 @@ main {
 }
 .white {
   background: white;
-  opacity: .8;
 }
 .work-index {
   display: -webkit-box;
@@ -272,4 +274,47 @@ main {
   width: 67%;
   margin: auto;
   max-width: 800px;
+}
+
+/* parallax! */
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
+}
+.parallax__group {
+  position: relative;
+  transform-style: preserve-3d;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-3px) scale(6);
+  background: url("../img/bg-lg.jpg") no-repeat center center;
+  height: 50vh;
+  overflow-x: hidden;
+}
+
+#title {
+  z-index: 5;
+  height: 50vh;
+}
+#info {
+  z-index: 1;
+  height: 100%;
+}
+#footer {
+  z-index: 3;
+  height: 50vh;
 }
