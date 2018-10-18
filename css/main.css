@@ -301,9 +301,18 @@ main {
 }
 .parallax__layer--back {
   transform: translateZ(-3px) scale(6);
-  background: url("../img/bg-lg.jpg") no-repeat center center;
-  height: 50vh;
+  height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
+}
+.calendar-lg {
+  background: url("../img/calendar-lg.jpg") no-repeat center center;
+}
+.newspaper-lg {
+  background: url("../img/newspaper-lg.jpg") no-repeat center center;
+}
+.classroom-lg {
+  background: url("../img/classroom-lg.jpg") no-repeat center center;
 }
 
 #title {
