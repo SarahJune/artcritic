@@ -16,7 +16,7 @@
   .lindy, nav {
     width: 100%;
     text-align: center;
-    max-width: 350px;
+    max-width: 200px;
     margin: auto;
   }
   nav {
@@ -26,6 +26,22 @@
   .intro h2 {
     font-size: 75px;
     line-height: 75px;
+  }
+  .hello {
+    margin-top: 182px;
+  }
+  .title, .title h3, .title h4 {
+    animation: none;
+    opacity: 1;
+  }
+  .title {
+    padding: 150px 30px 100px 30px;
+  }
+  .text {
+    padding: 15px;
+  }
+  .text div {
+    padding: 25px;
   }
   .intro {
     height: 50vh;
@@ -71,10 +87,14 @@
   .buttons {
     padding: 25px;
   }
-  .dom, .opc, .pc {
+  .doa, .opc, .pc {
     margin: 10px 0;
   }
-  .dom-inner, .pc-inner, .opc-inner {
+  .doa:hover, .pc:hover, .opc:hover {
+    transform: none;
+    cursor: pointer;
+}
+  .doa-inner, .pc-inner, .opc-inner {
     padding: 25px;
   }
   .work-index {

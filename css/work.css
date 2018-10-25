@@ -41,7 +41,24 @@
 .title {
   box-sizing: border-box;
   clear: both;
-  padding: 250px 0 100px 0;
+  /* height: 100vh; */
+  padding: 300px 30px 300px 30px;
+  -webkit-animation: scrollup 2.5s 2s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: scrollup 2.5s 2s; /* Firefox < 16 */
+      -ms-animation: scrollup 2.5s 2s; /* Internet Explorer */
+       -o-animation: scrollup 2.5s 2s; /* Opera < 12.1 */
+          animation: scrollup 2.5s 2s;
+          animation-fill-mode: forwards;
+          animation-timing-function: cubic-bezier(0.5, 0, 0, 1);
+}
+.title h3, .title h4 {
+  opacity: 0;
+  -webkit-animation: fadein 2s 1s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 2s 1s; /* Firefox < 16 */
+      -ms-animation: fadein 2s 1s; /* Internet Explorer */
+       -o-animation: fadein 2s 1s; /* Opera < 12.1 */
+          animation: fadein 2s 1s;
+          animation-fill-mode: forwards;
 }
 .text {
   margin: 0;

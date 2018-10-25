@@ -5,7 +5,57 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 100;
   color: #182024;
+  position: relative;
+  z-index: 50;
   /* background-color: #ffffff; */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadin {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes scrollup {
+    0% {
+      padding: 300px 30px 300px 30px;
+    }
+    100%   {
+      padding: 150px 30px 100px 30px;
+    }
+
 }
 h1 {
   font-size: 24px;
@@ -37,17 +87,6 @@ li {
   font-size: 18px;
   line-height: 24px;
   margin-bottom: 12px;
-}
-main {
-  position: relative;
-  z-index: 50;
-  /* background-color: #ffffff; */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
 }
 .right {
   text-align: right;
@@ -132,10 +171,10 @@ main {
 .buttons {
   box-sizing: border-box;
   text-align: center;
-  margin: 100px auto 50px;
+  margin: 100px 0 50px;
   padding: 100px 25px;
 }
-.dom, .opc, .pc {
+.doa, .opc, .pc {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +183,7 @@ main {
   width: 100%;
   height: auto;
 }
-.dom {
+.doa {
   background-image: url("../img/coders.jpg")
 }
 .opc {
@@ -153,7 +192,7 @@ main {
 .pc {
   background-image: url("../img/calendar.jpg")
 }
-.dom-inner, .opc-inner, .pc-inner {
+.doa-inner, .opc-inner, .pc-inner {
   text-align: center;
   display: -webkit-box;
   display: -moz-box;
@@ -167,7 +206,7 @@ main {
   box-sizing: border-box;
   margin: -1px;
 }
-.dom:hover, .pc:hover, .opc:hover {
+.doa:hover, .pc:hover, .opc:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -179,12 +218,12 @@ main {
   text-decoration: none;
   transition: all 100ms ease-in-out;
   color: #182024;
-  display: inline-block;
   font-weight: 700;
-  padding: 65px;
+  padding: 25px;
+    width: 100%;
 }
 .about {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 .about-inner {
   display: -webkit-box;
