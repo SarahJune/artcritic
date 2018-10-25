@@ -28,12 +28,6 @@ h3 {
   color: #182024;
   text-transform: uppercase;
 }
-.opener {
-  font-weight: 300;
-  position: relative;
-  font-size: 36px;
-  text-transform: uppercase;
-}
 p {
   font-size: 18px;
   line-height: 34px;
@@ -100,11 +94,7 @@ main {
 .work, .about, .contact {
   box-sizing: border-box;
   z-index: 50;
-  position: relative;
   /* background-color: #ffffff; */
-}
-.work, .about {
-  padding: 100px 0 0 0;
 }
 .pink {
   background-color: #dbbaaf;
@@ -127,6 +117,9 @@ main {
 }
 .white {
   background: white;
+}
+.frosted {
+  background: rgba(255, 255, 255, 0.95);
 }
 .work-index {
   display: -webkit-box;
@@ -172,6 +165,7 @@ main {
   height: 100%;
   min-height: 150px;
   box-sizing: border-box;
+  margin: -1px;
 }
 .dom:hover, .pc:hover, .opc:hover {
   transform: scale(1.1);
@@ -187,60 +181,10 @@ main {
   color: #182024;
   display: inline-block;
   font-weight: 700;
+  padding: 65px;
 }
-
-/* .element-to-hide {
-    visibility: hidden;
-    -webkit-transition: visibility 1.5s;
-    transition: visibility 1.5s;
-}
-.fadeIn {
-    visibility: visible;
-    animation: fadeIn 1.5s ease-in-out 1;
-    -webkit-animation: fadeIn 1.5s ease-in-out 1;
-}
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-.fadeOut {
-    animation: fadeOut 1.5s ease-in-out 1;
-    -webkit-animation: fadeOut 1.5s ease-in-out 1;
-}
-@keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-@-webkit-keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-} */
 .about {
-  /* position: -webkit-sticky;
-  position: sticky; */
-  top: 0px;
+  padding: 100px 0;
 }
 .about-inner {
   display: -webkit-box;
@@ -275,55 +219,24 @@ main {
   margin: auto;
   max-width: 800px;
 }
-
-/* parallax! */
-
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective-origin-x: 100%;
+.pc-lg {
+  background: url("../img/calendar-lg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
-.parallax__group {
-  position: relative;
-  transform-style: preserve-3d;
+.opc-lg {
+  background: url("../img/newspaper-lg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-}
-.parallax__layer--back {
-  transform: translateZ(-3px) scale(6);
-  height: 100%;
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-.calendar-lg {
-  background: url("../img/calendar-lg.jpg") no-repeat center center;
-}
-.newspaper-lg {
-  background: url("../img/newspaper-lg.jpg") no-repeat center center;
-}
-.classroom-lg {
-  background: url("../img/classroom-lg.jpg") no-repeat center center;
-}
-
-#title {
-  z-index: 5;
-  height: 50vh;
-}
-#info {
-  z-index: 1;
-  height: 100%;
-}
-#footer {
-  z-index: 3;
-  height: 50vh;
+.doa-lg {
+  background: url("../img/coders-lg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
 }

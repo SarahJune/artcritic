@@ -13,10 +13,6 @@
 .cf, .bb, .fh {
   overflow: auto;
 }
-.text, .pics {
-  float: left;
-  display: block;
-}
 .onecolumn {
   width: 100%;
   float: left;
@@ -34,33 +30,29 @@
   float: left;
 }
 .linebg {
-  /* display: flex;
-  justify-content: space-between; */
   background: repeating-linear-gradient(
-  55deg,
-  #FAFAFA,
-  #FAFAFA 15px,
-  #F5F5F5 15px,
-  #F5F5F5 30px
-);
+    55deg,
+    #FAFAFA,
+    #FAFAFA 15px,
+    #F5F5F5 15px,
+    #F5F5F5 30px
+  );
 }
 .title {
   box-sizing: border-box;
   clear: both;
-  padding: 150px 0 50px 0;
-  background-color: #ffffff;
+  padding: 250px 0 100px 0;
 }
 .text {
   margin: 0;
   width: 100%;
   padding: 75px;
   box-sizing: border-box;
-  background-color: rgba(225, 225, 225, 0.95);
 }
 .text div {
   box-sizing: border-box;
   padding: 50px;
-  margin: 100px auto;
+  margin: auto;
   align-items: center;
   max-width: 800px;
 }
